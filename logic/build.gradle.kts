@@ -1,15 +1,5 @@
 plugins {
-    java
-    jacoco
-
-}
-
-java.toolchain {
-    languageVersion.set(JavaLanguageVersion.of(21))
-}
-
-repositories {
-    mavenCentral()
+    id("hu.bme.mit.ase.shingler.gradle.java")
 }
 
 val picoCliVersion = "4.7.6"
